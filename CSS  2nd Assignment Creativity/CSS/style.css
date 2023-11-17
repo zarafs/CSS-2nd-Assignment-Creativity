@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://wallpapers.com/images/hd/home-background-7b2dfoqu6cgnl7r1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.navbar {
+    width: 100%;
+    height: 30px
+    padding: 35px 0px;
+    position: fixed;
+    align-items: center;
+    background-image: linear-Gradient(#033747, #012733);
+    justify-content: space-between;
+}
+ .logo {
+    padding-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    float: left;
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+.navbar ul{
+    float: left;
+}
+.navbar li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    display: inline-block;
+    list-style: none;
+}
+.navbar li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: red;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    color: skyblue;
+    transition: all 0.4s ease 0s;
+}
+.navbar li button{
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-left: 30px;
+    background-color: skyblue;
+    border: 2px;
+    border-radius: 20px;}
+.navbar li button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.container {
+    width: 30%;
+    height: 60%;
+    background-color: antiquewhite;
+    float: right;
+    text-align: center;
+    margin-top: 130px;
+    margin-right: 8%;  
+}
+.content {
+    margin-top: 200px;
+    font-size: 40px;
+    color: red;
+    float: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.btn1 {
+padding: 15px 30px 15px 30px;
+font-size: 20px;
+border: none;
+background: rgb(3, 21, 29);
+color: white;
+border-radius: 10px;
+}
+.btn1:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.para {
+    width: 95%;
+    height: 50vh;
+    background-color: rgb(209, 217, 231);
+    display: flex;
+    font-size: 30px;
+    color: red;
+    padding-top: 80px;
+    padding-right: 60px;
+    padding-left: 50px;
+    justify-content: space-between;
+}
+.para p{
+    font-family: Geneva, Verdana, sans-serif;
+    
+}
+.images {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    background-color: black;
+}
+.footer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.icons {
+     display: flex;
+     justify-content: center;
+}
+.icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50px;
+}
+.icons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.icons a:hover{
+    background-color: red;
+    transition: 0.5;
+}
+.footnav {
+    margin: 30px 0;
+}
+.footnav ul{
+    display: flex;
+    justify-content: center;
+}
+.footnav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footnav ul li a:hover{
+    opacity: 1;
+}
+.copy {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.copy p{
+    color: white;
+}
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 0px 5px;
+}
